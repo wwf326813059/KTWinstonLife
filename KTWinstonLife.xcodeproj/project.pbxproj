@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F119605B1FFA901000E5B5FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F119605A1FFA901000E5B5FD /* AppDelegate.m */; };
+		F119605E1FFA901000E5B5FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F119605D1FFA901000E5B5FD /* ViewController.m */; };
+		F11960611FFA901000E5B5FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F119605F1FFA901000E5B5FD /* Main.storyboard */; };
+		F11960631FFA901000E5B5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11960621FFA901000E5B5FD /* Assets.xcassets */; };
+		F11960661FFA901000E5B5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11960641FFA901000E5B5FD /* LaunchScreen.storyboard */; };
+		F11960691FFA901000E5B5FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F11960681FFA901000E5B5FD /* main.m */; };
+		F11960731FFA901000E5B5FD /* KTWinstonLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F11960721FFA901000E5B5FD /* KTWinstonLifeTests.m */; };
+		F119607E1FFA901000E5B5FD /* KTWinstonLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F119607D1FFA901000E5B5FD /* KTWinstonLifeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F119606F1FFA901000E5B5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F119604E1FFA901000E5B5FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F11960551FFA901000E5B5FD;
+			remoteInfo = KTWinstonLife;
+		};
+		F119607A1FFA901000E5B5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F119604E1FFA901000E5B5FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F11960551FFA901000E5B5FD;
+			remoteInfo = KTWinstonLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F11960561FFA901000E5B5FD /* KTWinstonLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTWinstonLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11960591FFA901000E5B5FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F119605A1FFA901000E5B5FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F119605C1FFA901000E5B5FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F119605D1FFA901000E5B5FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F11960601FFA901000E5B5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F11960621FFA901000E5B5FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F11960651FFA901000E5B5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F11960671FFA901000E5B5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11960681FFA901000E5B5FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F119606E1FFA901000E5B5FD /* KTWinstonLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTWinstonLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11960721FFA901000E5B5FD /* KTWinstonLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTWinstonLifeTests.m; sourceTree = "<group>"; };
+		F11960741FFA901000E5B5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11960791FFA901000E5B5FD /* KTWinstonLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTWinstonLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F119607D1FFA901000E5B5FD /* KTWinstonLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTWinstonLifeUITests.m; sourceTree = "<group>"; };
+		F119607F1FFA901000E5B5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F11960531FFA901000E5B5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F119606B1FFA901000E5B5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11960761FFA901000E5B5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F119604D1FFA901000E5B5FD = {
+			isa = PBXGroup;
+			children = (
+				F11960581FFA901000E5B5FD /* KTWinstonLife */,
+				F11960711FFA901000E5B5FD /* KTWinstonLifeTests */,
+				F119607C1FFA901000E5B5FD /* KTWinstonLifeUITests */,
+				F11960571FFA901000E5B5FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F11960571FFA901000E5B5FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F11960561FFA901000E5B5FD /* KTWinstonLife.app */,
+				F119606E1FFA901000E5B5FD /* KTWinstonLifeTests.xctest */,
+				F11960791FFA901000E5B5FD /* KTWinstonLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F11960581FFA901000E5B5FD /* KTWinstonLife */ = {
+			isa = PBXGroup;
+			children = (
+				F11960591FFA901000E5B5FD /* AppDelegate.h */,
+				F119605A1FFA901000E5B5FD /* AppDelegate.m */,
+				F119605C1FFA901000E5B5FD /* ViewController.h */,
+				F119605D1FFA901000E5B5FD /* ViewController.m */,
+				F119605F1FFA901000E5B5FD /* Main.storyboard */,
+				F11960621FFA901000E5B5FD /* Assets.xcassets */,
+				F11960641FFA901000E5B5FD /* LaunchScreen.storyboard */,
+				F11960671FFA901000E5B5FD /* Info.plist */,
+				F11960681FFA901000E5B5FD /* main.m */,
+			);
+			path = KTWinstonLife;
+			sourceTree = "<group>";
+		};
+		F11960711FFA901000E5B5FD /* KTWinstonLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F11960721FFA901000E5B5FD /* KTWinstonLifeTests.m */,
+				F11960741FFA901000E5B5FD /* Info.plist */,
+			);
+			path = KTWinstonLifeTests;
+			sourceTree = "<group>";
+		};
+		F119607C1FFA901000E5B5FD /* KTWinstonLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F119607D1FFA901000E5B5FD /* KTWinstonLifeUITests.m */,
+				F119607F1FFA901000E5B5FD /* Info.plist */,
+			);
+			path = KTWinstonLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F11960551FFA901000E5B5FD /* KTWinstonLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11960821FFA901000E5B5FD /* Build configuration list for PBXNativeTarget "KTWinstonLife" */;
+			buildPhases = (
+				F11960521FFA901000E5B5FD /* Sources */,
+				F11960531FFA901000E5B5FD /* Frameworks */,
+				F11960541FFA901000E5B5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTWinstonLife;
+			productName = KTWinstonLife;
+			productReference = F11960561FFA901000E5B5FD /* KTWinstonLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F119606D1FFA901000E5B5FD /* KTWinstonLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11960851FFA901000E5B5FD /* Build configuration list for PBXNativeTarget "KTWinstonLifeTests" */;
+			buildPhases = (
+				F119606A1FFA901000E5B5FD /* Sources */,
+				F119606B1FFA901000E5B5FD /* Frameworks */,
+				F119606C1FFA901000E5B5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F11960701FFA901000E5B5FD /* PBXTargetDependency */,
+			);
+			name = KTWinstonLifeTests;
+			productName = KTWinstonLifeTests;
+			productReference = F119606E1FFA901000E5B5FD /* KTWinstonLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F11960781FFA901000E5B5FD /* KTWinstonLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11960881FFA901000E5B5FD /* Build configuration list for PBXNativeTarget "KTWinstonLifeUITests" */;
+			buildPhases = (
+				F11960751FFA901000E5B5FD /* Sources */,
+				F11960761FFA901000E5B5FD /* Frameworks */,
+				F11960771FFA901000E5B5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F119607B1FFA901000E5B5FD /* PBXTargetDependency */,
+			);
+			name = KTWinstonLifeUITests;
+			productName = KTWinstonLifeUITests;
+			productReference = F11960791FFA901000E5B5FD /* KTWinstonLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F119604E1FFA901000E5B5FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "筑梦师--Winston";
+				TargetAttributes = {
+					F11960551FFA901000E5B5FD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F119606D1FFA901000E5B5FD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F11960551FFA901000E5B5FD;
+					};
+					F11960781FFA901000E5B5FD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F11960551FFA901000E5B5FD;
+					};
+				};
+			};
+			buildConfigurationList = F11960511FFA901000E5B5FD /* Build configuration list for PBXProject "KTWinstonLife" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F119604D1FFA901000E5B5FD;
+			productRefGroup = F11960571FFA901000E5B5FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11960551FFA901000E5B5FD /* KTWinstonLife */,
+				F119606D1FFA901000E5B5FD /* KTWinstonLifeTests */,
+				F11960781FFA901000E5B5FD /* KTWinstonLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F11960541FFA901000E5B5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11960661FFA901000E5B5FD /* LaunchScreen.storyboard in Resources */,
+				F11960631FFA901000E5B5FD /* Assets.xcassets in Resources */,
+				F11960611FFA901000E5B5FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F119606C1FFA901000E5B5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11960771FFA901000E5B5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F11960521FFA901000E5B5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F119605E1FFA901000E5B5FD /* ViewController.m in Sources */,
+				F11960691FFA901000E5B5FD /* main.m in Sources */,
+				F119605B1FFA901000E5B5FD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F119606A1FFA901000E5B5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11960731FFA901000E5B5FD /* KTWinstonLifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11960751FFA901000E5B5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F119607E1FFA901000E5B5FD /* KTWinstonLifeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F11960701FFA901000E5B5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F11960551FFA901000E5B5FD /* KTWinstonLife */;
+			targetProxy = F119606F1FFA901000E5B5FD /* PBXContainerItemProxy */;
+		};
+		F119607B1FFA901000E5B5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F11960551FFA901000E5B5FD /* KTWinstonLife */;
+			targetProxy = F119607A1FFA901000E5B5FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F119605F1FFA901000E5B5FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11960601FFA901000E5B5FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F11960641FFA901000E5B5FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11960651FFA901000E5B5FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F11960801FFA901000E5B5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F11960811FFA901000E5B5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F11960831FFA901000E5B5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BX78285ZM;
+				INFOPLIST_FILE = KTWinstonLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Winston.KTWinstonLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F11960841FFA901000E5B5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BX78285ZM;
+				INFOPLIST_FILE = KTWinstonLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Winston.KTWinstonLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F11960861FFA901000E5B5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BX78285ZM;
+				INFOPLIST_FILE = KTWinstonLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Winston.KTWinstonLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTWinstonLife.app/KTWinstonLife";
+			};
+			name = Debug;
+		};
+		F11960871FFA901000E5B5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BX78285ZM;
+				INFOPLIST_FILE = KTWinstonLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Winston.KTWinstonLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTWinstonLife.app/KTWinstonLife";
+			};
+			name = Release;
+		};
+		F11960891FFA901000E5B5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BX78285ZM;
+				INFOPLIST_FILE = KTWinstonLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Winston.KTWinstonLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KTWinstonLife;
+			};
+			name = Debug;
+		};
+		F119608A1FFA901000E5B5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BX78285ZM;
+				INFOPLIST_FILE = KTWinstonLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Winston.KTWinstonLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KTWinstonLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F11960511FFA901000E5B5FD /* Build configuration list for PBXProject "KTWinstonLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11960801FFA901000E5B5FD /* Debug */,
+				F11960811FFA901000E5B5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11960821FFA901000E5B5FD /* Build configuration list for PBXNativeTarget "KTWinstonLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11960831FFA901000E5B5FD /* Debug */,
+				F11960841FFA901000E5B5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11960851FFA901000E5B5FD /* Build configuration list for PBXNativeTarget "KTWinstonLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11960861FFA901000E5B5FD /* Debug */,
+				F11960871FFA901000E5B5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11960881FFA901000E5B5FD /* Build configuration list for PBXNativeTarget "KTWinstonLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11960891FFA901000E5B5FD /* Debug */,
+				F119608A1FFA901000E5B5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F119604E1FFA901000E5B5FD /* Project object */;
+}
